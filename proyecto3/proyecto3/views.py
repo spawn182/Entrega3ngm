@@ -22,3 +22,6 @@ def probandoHTML(request):
     documento = template.render(contexto)
     return HttpResponse(documento)
 
+def tercera(request):
+    return HttpResponse("prueba")
+
